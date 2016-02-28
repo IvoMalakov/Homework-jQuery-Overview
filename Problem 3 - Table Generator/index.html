@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problem 3 - Table Generator</title>
+    <script type="text/javascript" src="../jquery/jquery.js"></script>
+    <link type="text/css" rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+<main>
+    <label for="input_JSON_String">This is the input JSON String:</label>
+    <textarea id="input_JSON_String">"[{"manufacturer":"BMW","model":"E92 320i","year":2011,"price":50000,"class":"Family"},
+{"manufacturer":"Porsche","model":"Panamera","year":2012,"price":100000,"class":"Sport"},
+{"manufacturer":"Peugeot","model":"305","year":1978,"price":1000,"class":"Family"}]"
+</textarea>
+
+    <button type="button" value="Generate Table" id="generate_table_btn">Generate Table</button>
+
+    <section id="table-Container"></section>
+</main>
+<script type="text/javascript" src="scripts/table_generator.js" defer></script>
+</body>
+</html>

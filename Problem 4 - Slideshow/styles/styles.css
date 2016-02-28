@@ -1,0 +1,49 @@
+section {
+    width: 500px;
+    height: 375px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0 auto;
+}
+
+button {
+    position: absolute;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+button img {
+    width: 50px;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#left, #right {
+    top: 150px;
+}
+
+#left {
+    left: 800px;
+}
+
+#right {
+    right: 800px;
+}
+
+#slider {
+    position: relative;
+    width: 4500px;
+}
+
+#slider img {
+    width: 500px;
+    height: 376px;
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    float: left;
+}
